@@ -1,12 +1,13 @@
 # navicat-key
 延长navicat试用期时间，每次15天。  
 使用java写了个小程序，可以自动清理注册表。
+
 ## 原理
-关闭Navicat
-Win + R，输入regedit回车
-删除HKEY_CURRENT_USER\Software\PremiumSoft\Data
-展开HKEY_CURRENT_USER\Software\Classes\CLSID
-展开每一个子文件夹，如果里面只包含一个名为Info的文件夹，就删掉它。
+关闭Navicat  
+Win + R，输入regedit回车  
+删除HKEY_CURRENT_USER\Software\PremiumSoft\Data  
+展开HKEY_CURRENT_USER\Software\Classes\CLSID  
+展开每一个子文件夹，如果里面只包含一个名为Info的文件夹，就删掉它。  
 
 ## 使用方法
 1、下载工程  
@@ -26,6 +27,6 @@ delete : HKEY_CURRENT_USER\Software\Classes\CLSID\{D8FE9825-A860-9090-9F05-DDE51
 delete : HKEY_CURRENT_USER\Software\Classes\CLSID\{D91C165F-4E56-713D-B33D-1A82AEC5B263}\Info
 delete : HKEY_CURRENT_USER\Software\Classes\CLSID\{EED3317D-9BAF-E1A0-3530-53BD0421B01D}\Info
 ```
-表示运行成功。  
+即表示运行成功。  
 
-### PS：有哪位小伙伴能帮忙打包个exe可执行文件，谢谢~！
+#### PS：有哪位小伙伴能帮忙打包个exe可执行文件，谢谢~！
