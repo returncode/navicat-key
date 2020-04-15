@@ -10,6 +10,7 @@ Win + R，输入regedit回车
 展开每一个子文件夹，如果里面只包含一个名为Info的文件夹，就删掉它。  
 
 ## 使用方法
+0、关闭Navicat  
 1、下载工程  
 2、打开命令提示符  
 3、到bin目录下运行命令：`java -jar .\navicat-key.jar`  
